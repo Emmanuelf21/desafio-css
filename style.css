@@ -1,8 +1,6 @@
 #carro{
     width: 500px;
     height: 200px;
-
-    border: 1px solid black;
   }
   #estrutura_cima_l{
     width: 130px;
@@ -31,7 +29,7 @@
 
     border-start-end-radius: 60px 22px;
     direction: rtl;
-    
+    border: 2px solid rgb(173, 216, 230);
   }  
 
   #estrutura_cima_r{
@@ -60,6 +58,8 @@
     left: 188px;
 
     border-start-end-radius: 330px 90px;
+    border: 2px solid rgb(173, 216, 230);
+
   }
 
   #estrutura_baixo_l{
@@ -94,7 +94,17 @@
     border-top: none;
   }
   #farol{
-    
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transform: rotate(-25deg);
+    position: relative;
+    left: 125px;
+    top: 7px;
   }
   .roda {
     position: absolute;
@@ -120,7 +130,7 @@
     position: relative;
     margin: auto;
     top: 19px;
-    background-color: aliceblue;
+    background-color: rgb(141, 141, 142);
   }
 
   #calota_r2, #calota_l2{
@@ -129,7 +139,7 @@
     position: relative;
     margin: auto;
     top: 3px;
-    background-color: aliceblue;
+    background-color: rgb(141, 141, 142);
   }
 
   #calota_l3, #calota_r3{
@@ -138,7 +148,7 @@
     position: relative;
     margin: auto;
     top: -28px;
-    background-color: aliceblue;
+    background-color: rgb(141, 141, 142);
     transform: rotate(45deg);
   }
 
@@ -148,6 +158,6 @@
     position: relative;
     margin: auto;
     top: -57px;
-    background-color: aliceblue;
+    background-color: rgb(141, 141, 142);
     transform: rotate(135deg);
   }
