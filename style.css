@@ -1,0 +1,153 @@
+#carro{
+    width: 500px;
+    height: 200px;
+
+    border: 1px solid black;
+  }
+  #estrutura_cima_l{
+    width: 130px;
+    height: 50px;
+
+    background-color: grey;
+    position: fixed;
+
+    top: 82px;
+    left: 65px;
+
+    border-start-end-radius: 230px 90px;
+    direction: rtl;
+    border: 2px solid rgb(88, 87, 87);
+  }
+
+  #janela_l{
+    width: 60px;
+    height: 30px;
+
+    background-color: rgba(173, 216, 230, 0.466);
+    position: fixed;
+
+    top: 86px;
+    left: 122px;
+
+    border-start-end-radius: 60px 22px;
+    direction: rtl;
+    
+  }  
+
+  #estrutura_cima_r{
+    width: 100px;
+    height: 50px;
+
+    background-color: grey;
+    position: absolute;
+
+    top: 82px;
+    left: 195px;
+
+    border-start-end-radius: 230px 90px;
+    border: 2px solid rgb(88, 87, 87);
+    border-left: none;
+  }
+
+  #janela_r{
+    width: 95px;
+    height: 30px;
+
+    background-color: rgba(173, 216, 230, 0.466);
+    position: fixed;
+
+    top: 86px;
+    left: 188px;
+
+    border-start-end-radius: 330px 90px;
+  }
+
+  #estrutura_baixo_l{
+    background-color: grey;
+    width: 150px;
+    height: 50px;
+
+    position: absolute;
+
+    top: 108.8px;
+    left: 60px;
+
+    border-start-end-radius: 30px 30px;
+    direction: rtl;
+    border-bottom-left-radius: 5px;
+
+    border: 2px solid rgb(88, 87, 87);
+    border-top: none;
+
+  }
+
+  #estrutura_baixo_r{
+    background-color: grey;
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    top: 108.8px;
+    left: 200px;
+    border-start-end-radius: 70px 30px;
+    border: 2px solid rgb(88, 87, 87);
+    border-left: none;
+    border-top: none;
+  }
+  #farol{
+    
+  }
+  .roda {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    background: black;
+    border-radius: 50%;
+  }
+
+  #roda-r {
+    top: 30px;
+    left: 90px;
+  }
+
+  #roda-l {
+    top: 30px;
+    left: 50px;
+  }
+
+  #calota_r1, #calota_l1{
+    width: 30px;
+    height: 3px;
+    position: relative;
+    margin: auto;
+    top: 19px;
+    background-color: aliceblue;
+  }
+
+  #calota_r2, #calota_l2{
+    width: 3px;
+    height: 30px;
+    position: relative;
+    margin: auto;
+    top: 3px;
+    background-color: aliceblue;
+  }
+
+  #calota_l3, #calota_r3{
+    width: 3px;
+    height: 30px;
+    position: relative;
+    margin: auto;
+    top: -28px;
+    background-color: aliceblue;
+    transform: rotate(45deg);
+  }
+
+  #calota_l4, #calota_r4{
+    width: 3px;
+    height: 30px;
+    position: relative;
+    margin: auto;
+    top: -57px;
+    background-color: aliceblue;
+    transform: rotate(135deg);
+  }
