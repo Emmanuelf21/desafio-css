@@ -1,14 +1,25 @@
+body{
+  background: linear-gradient(to bottom, lightblue, blue);
+  background-repeat: no-repeat;
+  height: 575px;
+  width: 582px;
+}
+
 #carro{
     width: 500px;
     height: 200px;
+    position: absolute;
+    top: 350px;
     animation: mover 5s linear infinite;
   }
+
+
 @keyframes mover{
     0%{
         transform: translateX(-100%);
     }
     100%{
-        transform: translateX(300vw);
+        transform: translateX(90vw);
     }
 }
 
@@ -122,8 +133,19 @@
     height: 43px;
     background: black;
     border-radius: 50%;
+    animation: rodas 5s linear infinite;
+
   }
 
+  @keyframes rodas {
+    0%{
+      transform: rotate(0);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+  
   #roda-r {
     top: 30px;
     left: 90px;
